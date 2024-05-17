@@ -1,7 +1,101 @@
+<!DOCTYPE html>
 <html>
-  <body>
-    <h1>Brittaney Miller</h1>
-    <p> Welcome to my website!</p>
-    <img src="https://content.codecademy.com/articles/github-pages-via-web-app/happy-ice-cream.gif"/>
-  </body>
+    <head>
+        <link rel="stylesheet" type="text/css" href="./resources/style.css">
+        <title>Home</title>
+    </head>
+    <body>
+        <header class="header-menu">
+            <img class="header-menu-logo" src="./resources/Images/devsprinks.png" alt="Text dev sprinks with devil horns on both letters s.">
+            <span class="header-menu-right">
+                <span class="header-menu-nav">
+                    <nav class="header-menu-nav-button">
+                        <a href="index.html"><button id="button-home" type="button">Home</button></a>
+                        <a href=""><button id="button-Nav2" type="button">Nav2</button></a>
+                        <a href=""><button id="button-Nav3" type="button">Nav3</button></a>
+                        <a href=""><button id="button-About" type="button">About</button></a>
+                    </nav>
+                </span>
+                <span class="header-menu-search">
+                    <form class="header-menu-search-form">
+                        <button type="submit"><img src="./resources/Images/magnifier.ico" alt="maginifier glass icon"/></button>
+                        <div class="header-menu-search-area"> 
+                            <input id="search-input" type="search">
+                            <label for="search-input" class="search-label">Search</label> 
+                        </div>
+                    </form>
+                </span>
+            </span>
+        </header> 
+        <main>
+            <!--Section for left navigation pane ; content title ; content summary ;  content summary image space-->
+            <span class="main-primary"> 
+                <nav class="page-nav">
+                    <div class="page-nav-title">
+                        <h2 id="nav-title">Page Navigation</h2>
+                    </div>
+                    <div class="page-nav-list">
+                        <ol>
+                            <li>
+                                <a href="#HTML">HTML Structure</a>
+                                <ul>
+                                    <li>DOCTYPE, HTML, and Head</li>
+                                    <li>Body and Body Contents</li>
+                                </ul> 
+                            </li>
+                            <li>
+                                <a href="#CSS">CSS Positioning</a>
+                                <ul>
+                                    <li>Box Model</li>
+                                    <li>Display</li>
+                                    <li>Position</li>
+                                </ul>
+                            </li>
+                            <li>
+                                <a href="#Info">More Information</a>
+                                <ul>
+                                    <li>MDN</li>
+                                    <li>Source 2</li>
+                                    <li>Source 3</li>
+                                </ul>
+                            </li>
+                        </ol>
+                    </div>
+                </nav>                
+                <!--content title; content summary ; content summary image space-->
+                <span class="page-topic">
+                    <!--content title-->
+                    <div class="page-topic-title">
+                        <p>Codecademy Project</p>
+                    </div>
+                    <!--content summary-->
+                    <div class="page-topic-body">
+                        <div class="page-topic-summary">
+                            <p>This page is intended to fulfill the requirements of the first major Codecademy project in the full stack development course program. Please note, while the project's requirements were minimal, I chose to take it a step further and create a more elaborate page. I initially started with GIMP to create the logo seen in the top left corner before moving on to Figma to create a page design draft. The figma design can be found by clicking <a href="FIGMA_LINK">HERE</a>.</p>
+                            <p>Page description paragraph</p>
+                            <p>Third Paragraph if needed</p>
+                        </div>
+                        <!--content summary image space-->
+                        <div class="page-topic-img">
+                            <img src="./resources/Images/300_400.png" alt="black box with 300 x 400 text in center"/>
+                        </div>
+                    </div>
+                </span>
+            </span>
+            <!--Section for category title ; category summary ; category summary image space-->
+            <span class="main-secondary">
+                <span class="Category">
+                    <!--Category Title-->
+                    <div></div>
+                    <!--category summary-->
+                    <div></div>
+                    <!--category summary image space-->
+                    <div></div>
+                </span>
+            </span>
+
+        </main>
+        
+        <footer></footer>
+    </body>
 </html>
