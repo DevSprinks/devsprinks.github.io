@@ -8,7 +8,11 @@ Despite Codecademy describing the projects with minimum requirements, I wanted t
 
 <b>Version 1</b>
 
+File: [devsprinks.github.io-main.zip](https://github.com/user-attachments/files/15633285/devsprinks.github.io-main.zip)
 NOTE: "Version 1" is not labeled with a version number. Files included in "Version 1" would be all initially uploaded files in the month of 05/2024. 
 This version included only the site's "Home" page and was incomplete when first committed to Github. 
+
+
+
 
 
